@@ -5,6 +5,7 @@ services:
     volumes:
       - "./server:/app"
       - "/server"
+      - "./model:/model"
     ports:
       - "5555:3000"
       - "5556:3000"
