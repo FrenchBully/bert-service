@@ -1,0 +1,4 @@
+bert-serving-client
+numpy
+torch
+csv
