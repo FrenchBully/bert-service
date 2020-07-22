@@ -1,6 +1,7 @@
-version: '3'
+version: '2.3'
 services:
   py-dev-server:
+    runtime: nvidia
     build: server
     volumes:
       - "./server:/app"
