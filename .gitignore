@@ -1,3 +1,4 @@
 model/*
 server/model
 data
+node_modules
