@@ -1,10 +1,12 @@
-version: '3'
+version: '2.3'
 services:
   py-dev-server:
+    runtime: nvidia
     build: server
     volumes:
       - "./server:/app"
       - "/server"
+      - "./model:/model"
     ports:
       - "5555:3000"
       - "5556:3000"
